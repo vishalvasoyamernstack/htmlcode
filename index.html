@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      .box {
+        width: 300px;
+        height: 200px;
+        background-color: lightblue;
+        border: 2px solid blue;
+        padding: 20px;
+        margin: 20px;
+        position: relative;
+      }
+      .highlight {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        color: red;
+        font-weight: bold;
+      }
+    </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
+    <div class="box">
+      <p>
+        This is a box with a
+        <span class="highlight">highlighted text</span> inside it.
+      </p>
+    </div>
     This First code, test for upload github
   </body>
 </html>
